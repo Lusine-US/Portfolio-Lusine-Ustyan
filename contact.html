@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+        
+        <meta charset="utf-8">
+       
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        
+        <title>Lusine Ustyan Portfolio</title>
+    
+    </head>
+    
+    <body>
+        
+        <header>
+            
+            <nav>
+                
+             <ul>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            </nav>
+                
+                <h1>Lusine Ustyan</h1>
+            
+             
+                <ul>
+                    <li><a href="Portfolio.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            
+                </ul>
+        
+            
+           
+            
+        </header>
+        <br>
+        
+        <div id="logo1">
+        
+         <img class="small1" src="images/lu.JPG" alt="logo">
+        </div>
+        
+        <section>
+            
+        <a href="https://www.youtube.com/"><img class="small01" src="images/youtube.jpg" alt="youtube"></a>
+        <a href="https://www.google.com/search?client=firefox-b-d&q=facebook"><img class="small01" src="images/facebook.png" alt="facebook"></a>
+        <a href="https://twitter.com/login"><img class="small01" src="images/twitter.jpg" alt="twitter"></a>
+        <a href="https://www.blogger.com/about/?r=1-null_user"><img class="small01" src="images/blogger.png" alt="blogger"></a>
+        
+           
+            
+            <h2> Give Me a Call.I'm Realy Friendly </h2>
+            
+             <p class="para5">Thank You for taking the time to look through my Website!
+                                    </p>
+
+                                    <p class="para5">I'm excited about having the chance to be your Designer.Please
+            fill out the form below and i will respond as soon as possible within working hours.</p>
+
+                                
+        
+        
+        
+        
+        </section>
+        
+         <!--Scroll button-->
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        <script>
+            
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } 
+                else {
+                        mybutton.style.display = "none";
+                }
+            }
+                
+                function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+}
+
+        
+        
+        
+        </script>
+        
+        <form action="userdata.html" method="get" enctype="multipart/form-data">
+        
+                                        <fieldset>
+
+                                            <legend>
+                                                Personal Information
+                                            </legend>
+
+                                            <div>
+                                                <label for="firstname">First name: </label>
+                                                <input type="text" name="FirstName" id="firstname" required>
+                                            </div>
+
+                                            <div>
+                                                <label for="lastname">Last name: </label>
+                                                <input type="text" name="LastName" id="lastname" required>   
+                                            </div>
+                                       
+
+                                               <div>
+                                                    <label for="email">Email: </label>
+                                                    <input type="Email" name="Email" id="email" required>
+                                                </div>
+
+                                                    <div>
+                                                     <label for="tel">Phone: </label>
+                                                     <input type="Tel" name="Tel" id="tel">
+                                                    </div>
+
+                                                    
+
+                                                </fieldset>
+
+                                            
+                                                    <fieldset>
+                                
+                                                        <legend>
+                                                            Comments
+                                                        </legend>
+
+                                                        <div>
+                                                            <textarea name="Comments" id="comments" cols="45" rows="5" placeholder="Type Your Message..."></textarea>
+                                        
+                                                        </div>
+                                          
+                                                      
+
+                                                    </fieldset>
+                            
+                                                    <fieldset>
+
+                                                            <button type="submit">Send Message</button>
+                                                            <button type="reset">Reset Message</button>
+                                                    </fieldset>
+
+                                                 </form>
+        
+        
+       <br>
+        <footer>All Rights Reserved @2020</footer>
+    
+    
+    </body>
+
+</html>

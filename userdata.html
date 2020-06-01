@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+        
+        <meta charset="utf-8">
+       
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        
+        <title>Lusine Ustyan Portfolio</title>
+    
+    </head>
+    
+    <body>
+        
+        <header>
+            
+            <nav>
+                
+             <ul>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            </nav>
+                
+                <h1>Lusine Ustyan</h1>
+            
+             
+                <ul>
+                    <li><a href="Portfolio.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            
+                </ul>
+        
+            
+           
+            
+        </header>
+        <br>
+        
+        <div id="logo1">
+        
+         <img class="small1" src="images/lu.JPG" alt="logo">
+        </div>
+        
+        <section>
+        
+                                <div class="results">
+            
+                                    <h3>You are registered</h3>
+        
+                                    <p class="para2">The Information you're submitted has been received.Thank you!</p>
+                                
+                    
+                                    <div id="userdata"></div>
+                                 
+                                    <p> <a href="contact.html">Return page</a></p>
+
+                             </div>
+                        </section>
+        
+                    <script>
+                        const dataList = document.getElementById("userdata")
+                        new URLSearchParams(window.location.search).forEach((value, name) => {
+                            dataList.append(`${name}: ${value}`)
+                            dataList.append(document.createElement('br'))
+                        })  
+
+                    </script> 
+            
+           
+            
+           
+        
+
+        
+        
+       <br>
+        <footer>All Rights Reserved @2020</footer>
+    
+    
+    </body>
+
+</html>
